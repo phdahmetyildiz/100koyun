@@ -1,0 +1,29 @@
+# Veritabanı
+data/*.db
+data/*.sqlite
+
+# Loglar
+logs/*.log
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# Geçici dosyalar
+*.tmp
+*.bak
+*.swp
+*~
+
+# Kurulum dosyası (kullanıldıktan sonra silinmeli)
+# config/install.php
+
+# Environment dosyaları
+.env
+.env.local
+

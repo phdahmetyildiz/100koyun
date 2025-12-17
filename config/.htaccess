@@ -1,0 +1,18 @@
+# 100 Koyun - Config Klasörü Güvenlik Ayarları
+# Sadece kurulum dosyalarına erişime izin ver
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Sadece install.php ve update-remember-tokens.php'ye izin ver
+    RewriteCond %{REQUEST_URI} !install\.php$
+    RewriteCond %{REQUEST_URI} !update-remember-tokens\.php$
+    RewriteRule .* - [F,L]
+</IfModule>
+
+# Diğer tüm dosyalara erişimi engelle
+<FilesMatch "^(?!install\.php|update-remember-tokens\.php)">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+

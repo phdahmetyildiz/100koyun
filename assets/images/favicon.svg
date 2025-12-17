@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB"/>
+      <stop offset="100%" style="stop-color:#98D8EA"/>
+    </linearGradient>
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7CB342"/>
+      <stop offset="100%" style="stop-color:#558B2F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#skyGradient)" stroke="#4CAF50" stroke-width="3"/>
+  
+  <!-- Grass -->
+  <ellipse cx="50" cy="85" rx="45" ry="15" fill="url(#grassGradient)"/>
+  
+  <!-- Sheep body -->
+  <ellipse cx="50" cy="55" rx="25" ry="18" fill="#FAFAFA"/>
+  
+  <!-- Sheep wool bumps -->
+  <circle cx="35" cy="45" r="10" fill="#FAFAFA"/>
+  <circle cx="50" cy="40" r="12" fill="#FAFAFA"/>
+  <circle cx="65" cy="45" r="10" fill="#FAFAFA"/>
+  <circle cx="30" cy="55" r="8" fill="#FAFAFA"/>
+  <circle cx="70" cy="55" r="8" fill="#FAFAFA"/>
+  
+  <!-- Sheep head -->
+  <ellipse cx="50" cy="35" rx="12" ry="10" fill="#F5F5F5"/>
+  
+  <!-- Ears -->
+  <ellipse cx="38" cy="30" rx="4" ry="6" fill="#F5F5F5"/>
+  <ellipse cx="62" cy="30" rx="4" ry="6" fill="#F5F5F5"/>
+  
+  <!-- Eyes -->
+  <circle cx="45" cy="33" r="3" fill="#333"/>
+  <circle cx="55" cy="33" r="3" fill="#333"/>
+  <circle cx="46" cy="32" r="1" fill="#FFF"/>
+  <circle cx="56" cy="32" r="1" fill="#FFF"/>
+  
+  <!-- Nose -->
+  <ellipse cx="50" cy="40" rx="2" ry="1.5" fill="#333"/>
+  
+  <!-- Smile -->
+  <path d="M 45 42 Q 50 46 55 42" stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Legs -->
+  <rect x="38" y="68" width="4" height="12" rx="2" fill="#333"/>
+  <rect x="48" y="68" width="4" height="12" rx="2" fill="#333"/>
+  <rect x="58" y="68" width="4" height="12" rx="2" fill="#333"/>
+  
+  <!-- ZZZ (sleeping) -->
+  <text x="70" y="25" font-family="Arial" font-size="10" font-weight="bold" fill="#4CAF50">z</text>
+  <text x="76" y="20" font-family="Arial" font-size="8" font-weight="bold" fill="#4CAF50">z</text>
+  <text x="80" y="16" font-family="Arial" font-size="6" font-weight="bold" fill="#4CAF50">z</text>
+</svg>
+
